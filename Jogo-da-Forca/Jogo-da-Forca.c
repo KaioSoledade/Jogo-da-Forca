@@ -13,7 +13,7 @@
       scanf("%c", &chute);
 
       for(int i=0; i < strlen(palavrasecreta); i++){
-        if(palavrasecreta[i] = chute){
+        if(palavrasecreta[i] == chute){
           printf("a posicao %d tem essa letra!\n", i);
         }
       }
