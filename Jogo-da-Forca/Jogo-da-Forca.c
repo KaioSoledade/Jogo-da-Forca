@@ -11,14 +11,13 @@
 
     do{
       char chute;
-      scanf("%c", &chute);
+      scanf(" %c", &chute);
 
       for(int i=0; i < strlen(palavrasecreta); i++){
-        printf("Estou vendo a letra %c na posicao %d\n", palavrasecreta[i], i+1);
-        if(palavrasecreta[i] == chute){
-          printf("a posicao %d tem essa letra!\n", i+1);
-        }
+        printf("_ ")
+
       }
+        printf("\n")
     } while(!acertou && !enforcou);
 
 
