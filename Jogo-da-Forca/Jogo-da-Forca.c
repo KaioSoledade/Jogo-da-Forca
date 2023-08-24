@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+void abertura(){
+  printf("*******************\n");
+  printf("*  Jogo da Forca  *\n");
+  printf("*******************\n\n");
+}
  int main(){
   int acertou = 0;
   int enforcou = 0;
@@ -10,6 +15,8 @@
 
   char chutes[26];
   int tentativas = 0;
+
+  abertura();
 
     do{
 
@@ -41,7 +48,7 @@
 
 
     } while(!acertou && !enforcou);{
-      printf("Voce perdeu")
+      printf("Voce perdeu");
     }
 
 
