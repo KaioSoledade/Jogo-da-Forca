@@ -40,7 +40,9 @@
       tentativas ++;
 
 
-    } while(!acertou && !enforcou);
+    } while(!acertou && !enforcou);{
+      printf("Voce perdeu")
+    }
 
 
  }
