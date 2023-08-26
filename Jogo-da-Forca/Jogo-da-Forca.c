@@ -6,6 +6,15 @@ void abertura(){
   printf("*  Jogo da Forca  *\n");
   printf("*******************\n\n");
 }
+void chute(){
+  
+      char chute;
+      scanf(" %c", &chute);
+
+      chutes[tentativas] = chute;
+      tentativas ++;
+
+}
  int main(){
   int acertou = 0;
   int enforcou = 0;
@@ -39,13 +48,8 @@ void abertura(){
 
       }
       printf("\n");
-      
-      char chute;
-      scanf(" %c", &chute);
 
-      chutes[tentativas] = chute;
-      tentativas ++;
-
+    chute();
 
     } while(!acertou && !enforcou);{
       printf("Voce perdeu");
