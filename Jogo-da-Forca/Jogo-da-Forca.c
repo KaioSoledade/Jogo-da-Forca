@@ -12,7 +12,6 @@ void chuta(char chutes[26], int tentativas){
       scanf(" %c", &chute);
 
       chutes[tentativas] = chute;
-      tentativas ++;
 
 }
  int main(){
@@ -50,6 +49,7 @@ void chuta(char chutes[26], int tentativas){
       printf("\n");
 
     chuta(chutes, tentativas);
+    tentativas++;
 
     } while(!acertou && !enforcou);{
       printf("Voce perdeu");
